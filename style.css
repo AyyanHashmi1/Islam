@@ -1,0 +1,134 @@
+html{
+  background-color: bisque;
+  border-color: blue;
+  text-decoration: double;
+  margin:10px 5px 5px 5px  ;
+  display: grid;
+}
+
+nav{
+display: flex;
+gap: 15px;
+color: transparent;
+padding: 10px;}
+nav.img{
+height: 5px;
+width: 5px;
+}
+a{ 
+display: flexbox;
+text-decoration: double;
+font-size: 24px;
+padding-left: 30px;
+padding-top: 10px;
+}
+.Next{
+font-size: 30;
+background-color: #04aa04;
+color: black;
+float: right;
+}
+.Previous{
+font-size: 24;
+background-color: #04aa04;
+color: black;
+float: left;
+}
+h1.one{
+text-align: center;
+font-size: 40px;
+}
+h2.one{
+font-size: 30px;
+}
+h2.two{
+font-size: 30px;
+text-align: center;
+}
+h2.three{
+font-size: 30px;
+}
+
+p.one{
+  font-size: 25px;
+
+}
+p.two{
+  font-size: 24px;
+}
+
+ol.one{
+  font-size: 25px;
+
+}
+ol.two{
+  font-size: 24px;
+
+}
+
+a.ref{
+font-size: 21;
+
+color: blue;
+
+}
+img.one{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+img.two{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+img.three{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+
+}
+
+
+.btn{
+font-size: 24px;
+background-color: white;
+color: bisque;
+}
+div.one{
+  text-align: center;
+  font-size: 24px;
+}
+.Next{
+  width: 100px;       /* reduced width */
+  height: 40px;       /* reduced height */
+  background-color: #04aa04;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+}
+.Previous{
+  width: 135px;      
+  height: 40px;       
+  background-color: #04aa04;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+  float: left;
+}
+.Home{
+  width: 120px;       
+  height: 40px;      
+  background-color: #04aa04;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  float: right;
+}
